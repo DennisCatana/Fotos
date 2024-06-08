@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PhotoService } from '../services/photo.service';
+import { PhotoService, UserPhoto  } from '../services/photo.service';
 
 @Component({
   selector: 'app-tab2',
@@ -17,6 +17,14 @@ export class Tab2Page {
 
   async ngOnInit() {
     await this.photoService.loadSaved();
+  }
+
+  deletePhoto(photo: UserPhoto) {
+    this.photoService.deletePhoto(photo);
+  }
+
+  toggleSelection(photo: UserPhoto) {
+    photo.selected = !photo.selected;
   }
 
 }
