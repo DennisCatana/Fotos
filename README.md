@@ -1,4 +1,5 @@
 # Fotos 
+[Despliegue](https://despliegues-c6658.web.app/tabs/tab2)
 ## Para que el usuario pueda acceder a este aplicación debe seguir estos pasos.
 1. Primero debera de clonarse este repositorio o descargar el zip del mismo. <br>
 ![alt text](fotos/git.png)
