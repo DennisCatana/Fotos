@@ -7,8 +7,9 @@
 3. Debera de ejecutar el comado *nmp install* para que se obtengan todas las librerias necesarias, una vez echo esto se mostrara un mensaje como este. <br>
 ![alt text](fotos/npm.png)
 4. Una vez realizada esta confihuraciones el usuario ejecutara el comando *ionic serve* y esperara a que en un navegadorse le muestre la siguiente pantalla. <br>
-
-5. Debera de ingrear un gamil y contraseña solo como credenciales y se procedera a verificar en firabse en autenticaciones se haya creado ese usuario. <br>
-
-6. Una vez adentro podra enviar mensajes y ver si otros usuarios enviaron mensajes. <br>
-
+![alt text](fotos/pantalla.png)
+5. Ahora el usuario podra tomar fotos y estas se quedaran en la pantalla asi recargue.
+![alt text](fotos/fotos.png)
+6. Ademas tiene la opcion de elimiar alguna foto al hacer click en esa foto.
+![alt text](fotos/delete.png) <br>
+![alt text](fotos/x.png)
